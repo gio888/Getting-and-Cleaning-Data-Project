@@ -1,0 +1,90 @@
+DATA DICTIONARY - Tidy Data
+
+subject	integer	Subject Number
+activity	factor	Activity Name
+tBodyAcc-mean()-X	number	Average of body linear acceleration on X axis
+tBodyAcc-mean()-Y	number	Average of body linear acceleration on Y axis
+tBodyAcc-mean()-Z	number	Average of body linear acceleration on Z axis
+tBodyAcc-std()-X	number	Average of standard deviation of body linear acceleration on X axis
+tBodyAcc-std()-Y	number	Average of standard deviation of body linear acceleration on Y axis
+tBodyAcc-std()-Z	number	Average of standard deviation of body linear acceleration on Z axis
+tGravityAcc-mean()-X	number	Average of gravity linear acceleration on X axis
+tGravityAcc-mean()-Y	number	Average of gravity linear acceleration on Y axis
+tGravityAcc-mean()-Z	number	Average of gravity linear acceleration on Z axis
+tGravityAcc-std()-X	number	Average of gravity linear acceleration on X axis
+tGravityAcc-std()-Y	number	Average of standard deviation of gravity linear acceleration on Y axis
+tGravityAcc-std()-Z	number	Average of standard deviation of gravity linear acceleration on Z axis
+tBodyAccJerk-mean()-X	number	Average of body jerk linear acceleration on X axis
+tBodyAccJerk-mean()-Y	number	Average of body jerk linear acceleration on Y axis
+tBodyAccJerk-mean()-Z	number	Average of body jerk linear acceleration on Z axis
+tBodyAccJerk-std()-X	number	Average of standard deviation of body jerk linear acceleration on X axis
+tBodyAccJerk-std()-Y	number	Average of standard deviation of body jerk linear acceleration on Y axis
+tBodyAccJerk-std()-Z	number	Average of standard deviation of body jerk linear acceleration on Z axis
+tBodyGyro-mean()-X	number	Average of body linear gyroscope on X axis
+tBodyGyro-mean()-Y	number	Average of body linear gyroscope on Y axis
+tBodyGyro-mean()-Z	number	Average of body linear gyroscope on Z axis
+tBodyGyro-std()-X	number	Average of standard deviation of body linear gyroscope on X axis
+tBodyGyro-std()-Y	number	Average of standard deviation of body linear gyroscope on Y axis
+tBodyGyro-std()-Z	number	Average of standard deviation of body linear gyroscope on Z axis
+tBodyGyroJerk-mean()-X	number	Average of body gyro jerk linear gyroscope on X axis
+tBodyGyroJerk-mean()-Y	number	Average of body gyro jerk linear gyroscope on Y axis
+tBodyGyroJerk-mean()-Z	number	Average of body gyro jerk linear gyroscope on Z axis
+tBodyGyroJerk-std()-X	number	Average of standard deviation of body gyro jerk linear gyroscope on X axis
+tBodyGyroJerk-std()-Y	number	Average of standard deviation of body gyro jerk linear gyroscope on Y axis
+tBodyGyroJerk-std()-Z	number	Average of standard deviation of body gyro jerk linear gyroscope on Z axis
+tBodyAccMag-mean()	number	Average of body magnitude acceleration on axis
+tBodyAccMag-std()	number	Average of standard deviation of body magnitude acceleration on axis
+tGravityAccMag-mean()	number	Average of gravity magnitude acceleration on axis
+tGravityAccMag-std()	number	Average of standard deviation of gravity magnitude acceleration on axis
+tBodyAccJerkMag-mean()	number	Average of body jerk magnitude acceleration on axis
+tBodyAccJerkMag-std()	number	Average of standard deviation of body jerk magnitude acceleration on axis
+tBodyGyroMag-mean()	number	Average of body magnitude gyroscope on axis
+tBodyGyroMag-std()	number	Average of standard deviation of body magnitude gyroscope on axis
+tBodyGyroJerkMag-mean()	number	Average of body gyro jerk magnitude gyroscope on axis
+tBodyGyroJerkMag-std()	number	Average of standard deviation of body gyro jerk magnitude gyroscope on axis
+fBodyAcc-mean()-X	number	Average of body linear acceleration fourier transformed on X axis
+fBodyAcc-mean()-Y	number	Average of body linear acceleration fourier transformed on Y axis
+fBodyAcc-mean()-Z	number	Average of body linear acceleration fourier transformed on Z axis
+fBodyAcc-std()-X	number	Average of standard deviation of body linear acceleration fourier transformed on X axis
+fBodyAcc-std()-Y	number	Average of standard deviation of body linear acceleration fourier transformed on Y axis
+fBodyAcc-std()-Z	number	Average of standard deviation of body linear acceleration fourier transformed on Z axis
+fBodyAcc-meanFreq()-X	number	Average of frequency of body linear acceleration fourier transformed on X axis
+fBodyAcc-meanFreq()-Y	number	Average of frequency of body linear acceleration fourier transformed on Y axis
+fBodyAcc-meanFreq()-Z	number	Average of frequency of body linear acceleration fourier transformed on Z axis
+fBodyAccJerk-mean()-X	number	Average of body jerk linear acceleration fourier transformed on X axis
+fBodyAccJerk-mean()-Y	number	Average of body jerk linear acceleration fourier transformed on Y axis
+fBodyAccJerk-mean()-Z	number	Average of body jerk linear acceleration fourier transformed on Z axis
+fBodyAccJerk-std()-X	number	Average of standard deviation of body jerk linear acceleration fourier transformed on X axis
+fBodyAccJerk-std()-Y	number	Average of standard deviation of body jerk linear acceleration fourier transformed on Y axis
+fBodyAccJerk-std()-Z	number	Average of standard deviation of body jerk linear acceleration fourier transformed on Z axis
+fBodyAccJerk-meanFreq()-X	number	Average of frequency of body jerk linear acceleration fourier transformed on X axis
+fBodyAccJerk-meanFreq()-Y	number	Average of frequency of body jerk linear acceleration fourier transformed on Y axis
+fBodyAccJerk-meanFreq()-Z	number	Average of frequency of body jerk linear acceleration fourier transformed on Z axis
+fBodyGyro-mean()-X	number	Average of body linear gyroscope fourier transformed on X axis
+fBodyGyro-mean()-Y	number	Average of body linear gyroscope fourier transformed on Y axis
+fBodyGyro-mean()-Z	number	Average of body linear gyroscope fourier transformed on Z axis
+fBodyGyro-std()-X	number	Average of standard deviation of body linear gyroscope fourier transformed on X axis
+fBodyGyro-std()-Y	number	Average of standard deviation of body linear gyroscope fourier transformed on Y axis
+fBodyGyro-std()-Z	number	Average of standard deviation of body linear gyroscope fourier transformed on Z axis
+fBodyGyro-meanFreq()-X	number	Average of frequency of body linear gyroscope fourier transformed on X axis
+fBodyGyro-meanFreq()-Y	number	Average of frequency of body linear gyroscope fourier transformed on Y axis
+fBodyGyro-meanFreq()-Z	number	Average of frequency of body linear gyroscope fourier transformed on Z axis
+fBodyAccMag-mean()	number	Average of body magnitude gyroscope fourier transformed on all axis
+fBodyAccMag-std()	number	Average of standard deviation of body magnitude acceleration fourier transformed on all axis
+fBodyAccMag-meanFreq()	number	Average of frequency of body magnitude acceleration fourier transformed on all axis
+fBodyBodyAccJerkMag-mean()	number	Average of body jerk magnitude acceleration fourier transformed on all axis
+fBodyBodyAccJerkMag-std()	number	Average of body jerk magnitude acceleration fourier transformed on all axis
+fBodyBodyAccJerkMag-meanFreq()	number	Average of frequency of body jerk magnitude acceleration fourier transformed on all axis
+fBodyBodyGyroMag-mean()	number	Average of body magnitude gyroscope fourier transformed on all axis
+fBodyBodyGyroMag-std()	number	Average of standard deviation of body magnitude gyroscope fourier transformed on all axis
+fBodyBodyGyroMag-meanFreq()	number	Average of frequency of body magnitude gyroscope fourier transformed on all axis
+fBodyBodyGyroJerkMag-mean()	number	Average of body gyro jerk magnitude gyroscope fourier transformed on all axis
+fBodyBodyGyroJerkMag-std()	number	Average of standard deviation of body gyro jerk magnitude gyroscope fourier transformed on all axis
+fBodyBodyGyroJerkMag-meanFreq()	number	Average of frequency of body gyro jerk magnitude gyroscope fourier transformed on all axis
+angle(tBodyAccMean,gravity)	number	Average angle between body gravity
+angle(tBodyAccJerkMean),gravityMean)	number	Average angle between body jerk gravity
+angle(tBodyGyroMean,gravityMean)	number	Average angle between body gyro gravity
+angle(tBodyGyroJerkMean,gravityMean)	number	Average angle between body gyro jerk gravity
+angle(X,gravityMean)	number	Average angle between X gravity
+angle(Y,gravityMean)	number	Average angle between Y gravity
+angle(Z,gravityMean)	number	Average angle between Z gravity
